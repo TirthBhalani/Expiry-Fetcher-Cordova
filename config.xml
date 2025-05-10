@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.yourname.expiryfetcher" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>Expiry Fetcher</name>
+    <description>Fetches commodity option expiry dates</description>
+    <author email="you@email.com" href="http://yourwebsite.com">Your Name</author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="https://www.mcxindia.com/*" />
+    <preference name="AndroidInsecureFileModeEnabled" value="true" />
+</widget>
