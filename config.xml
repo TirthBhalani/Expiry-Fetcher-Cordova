@@ -6,5 +6,21 @@
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="https://www.mcxindia.com/*" />
+
+
+    
     <preference name="AndroidInsecureFileModeEnabled" value="true" />
+    <allow-navigation href="*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="http://*/*" />
+    <access origin="*" />
+    <preference name="AndroidInsecureFileModeEnabled" value="true" />
+
+    <access origin="https://www.nseindia.com/*" />
+<allow-intent href="https://www.nseindia.com/*" />
+
+    <platform name="android">
+        <icon src="www/img/logo.avif" /> <!-- Sets your logo as the app icon -->
+    </platform>
+
 </widget>

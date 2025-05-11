@@ -229,3 +229,135 @@ h3 {
     padding: 5px 10px;
     border-top: 1px solid rgba(255,255,255,0.1);
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Fixed Indices Styles */
+.fixed-indices {
+    margin-top: 20px;
+    background: rgba(44, 62, 80, 0.6);
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.index-data {
+    margin-bottom: 15px;
+}
+
+.index-data:last-child {
+    margin-bottom: 0;
+}
+
+.index-data h3 {
+    color: #3498db;
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+
+.index-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.oi-box {
+    width: 48%;
+    background: rgba(52, 73, 94, 0.3);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.oi-box span {
+    display: block;
+    margin: 3px 0;
+    font-size: 13px;
+}
+
+
+
+
+
+/* NSE Section */
+.nse-section {
+    background: rgba(44, 62, 80, 0.6);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.section-title {
+    color: #3498db;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.index-container {
+    margin-bottom: 15px;
+}
+
+.symbol-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.symbol-name {
+    color: #3498db;
+    background: rgba(52, 152, 219, 0.2);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.data-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.data-cell {
+    background: rgba(52, 73, 94, 0.3);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.data-cell div {
+    margin: 4px 0;
+    font-size: 13px;
+}
+
+.value-box {
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.green {
+    color: #27ae60;
+    background: rgba(39, 174, 96, 0.1);
+}
+
+.red {
+    color: #e74c3c;
+    background: rgba(231, 76, 60, 0.1);
+}
+
+.loading-text {
+    color: #bdc3c7;
+    font-style: italic;
+}
+
+.last-updated {
+    font-size: 11px;
+    color: #bdc3c7;
+}

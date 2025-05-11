@@ -27,15 +27,13 @@
       "android"
     ],
     "plugins": {
-      "cordova-plugin-advanced-http": {
-        "ANDROIDBLACKLISTSECURESOCKETPROTOCOLS": "SSLv3,TLSv1"
-      },
       "cordova-plugin-background-mode": {},
       "cordova-plugin-inappbrowser": {},
       "cordova-plugin-network-information": {},
       "cordova-plugin-local-notification": {
         "ANDROIDX_CORE_VERSION": "1.12.0"
-      }
+      },
+      "cordova-plugin-advanced-http": {}
     }
   }
 }
